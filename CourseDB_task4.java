@@ -1,14 +1,14 @@
 package task4;
 import java.util.*;
 import java.time.LocalDate;
-public class CourseDB{
+public class CourseDB_task4{
 	String course_name;
 	int course_code;
     int capacity;
     String description;
     LocalDate course_date;
 
-    public CourseDB(String course_name, int course_code, int capacity, String description, LocalDate course_date)
+    public CourseDB_task4(String course_name, int course_code, int capacity, String description, LocalDate course_date)
     {
     	this.course_name = course_name;
     	this.course_code = course_code;
