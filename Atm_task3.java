@@ -2,7 +2,7 @@ package task3;
 
 import java.util.Scanner;
 
-class Atm {
+class Atm_task3{
     BankAcc acc;
 
     public Atm(BankAcc acc) {
