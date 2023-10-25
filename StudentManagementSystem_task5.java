@@ -1,15 +1,15 @@
 package task5;
 
-public class StudentManagementSystem {
-    private Student[] students;
+public class StudentManagementSystem_task5 {
+    private Student_task5[] students;
     private int count;
 
-    public StudentManagementSystem(int capacity) {
-        students = new Student[capacity];
+    public StudentManagementSystem_task5(int capacity) {
+        students = new Student_task5[capacity];
         count = 0;
     }
 
-    public void addStudent(Student student) {
+    public void addStudent(Student_task5 student) {
         if (count < students.length) {
             students[count++] = student;
         } else {
