@@ -1,13 +1,13 @@
 package task2;
 import java.util.*;
 
-public class StudentGrade{
+public class StudentGrade_task2{
 	String name;
 	int maths;
 	int biology;
 	int english;
 
-public StudentGrade(String name, int maths, int biology, int english){
+public StudentGrade_task2(String name, int maths, int biology, int english){
 	this.name = name;
 	this.maths = maths;
 	this.biology = biology;
@@ -72,7 +72,7 @@ public void display(){
   	System.out.println("Enter english marks:");
   	int s_eng = sc.nextInt();
  	
- 	StudentGrade s1 = new StudentGrade(s_name, s_maths, s_bio, s_eng);
+ 	StudentGrade_task2 s1 = new StudentGrade_task2(s_name, s_maths, s_bio, s_eng);
  	s1.display();
     break;
 
