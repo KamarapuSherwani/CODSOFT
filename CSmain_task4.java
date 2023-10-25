@@ -1,13 +1,13 @@
 package task4;
 import java.util.*;
 import java.time.LocalDate;
-public class CSmain{
+public class CSmain_task4{
 	public static void main(String[] args) {
         LocalDate date = LocalDate.of(2023, 10, 8);
-		CourseDB c1 = new CourseDB("PG-DASSD", 1263, 1, "Diploma in Advanced Secured Software Development", date);
-		CourseDB c2 = new CourseDB("PG-DAC", 1015, 100, "Diploma in Advanced Computing", date);
-		CourseDB c3 = new CourseDB("PG-DESD", 1101, 50, "Diploma in Embbeded Systems Development ", date);
-		CourseDB c4 = new CourseDB("PG-DIOT", 1962, 60, "Diploma in Internet Of Things", date);
+		CourseDB_task4 c1 = new CourseDB_task4("PG-DASSD", 1263, 1, "Diploma in Advanced Secured Software Development", date);
+		CourseDB_task4 c2 = new CourseDB_task4("PG-DAC", 1015, 100, "Diploma in Advanced Computing", date);
+		CourseDB_task4 c3 = new CourseDB_task4("PG-DESD", 1101, 50, "Diploma in Embbeded Systems Development ", date);
+		CourseDB_task4 c4 = new CourseDB_task4("PG-DIOT", 1962, 60, "Diploma in Internet Of Things", date);
 
 		List<StudentDB> studentList = new ArrayList<>(); // Create a list to store students
 
@@ -55,7 +55,7 @@ public class CSmain{
            System.out.println("Enter any Course: ");
            sc.nextLine();
            String scourse = sc.nextLine();
-           StudentDB s = new StudentDB(name, id, scourse);
+           StudentDB_task4 s = new StudentDB_task4(name, id, scourse);
            boolean courseAvailable = false; // Track if the selected course is available
 
                     if (scourse.equalsIgnoreCase(c1.getcourse_name())) {
