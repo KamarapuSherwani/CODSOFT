@@ -2,9 +2,9 @@ package task5;
 
 import java.util.Scanner;
 
-public class StudentMain {
+public class StudentMain_task5 {
     public static void main(String[] args) {
-        StudentManagementSystem system = new StudentManagementSystem(100);
+        StudentManagementSystem_task5 system = new StudentManagementSystem_task5(100);
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
@@ -29,7 +29,7 @@ public class StudentMain {
                     System.out.print("Enter grade: ");
                     String grade = scanner.nextLine();
 
-                    Student newStudent = new Student(name, rollNumber, grade);
+                    Student_task5 newStudent = new Student_task5(name, rollNumber, grade);
                     system.addStudent(newStudent);
                     System.out.println("Student added successfully.");
                     break;
@@ -46,7 +46,7 @@ public class StudentMain {
                     System.out.print("Enter roll number to search: ");
                     int rollToSearch = scanner.nextInt();
                     scanner.nextLine();  
-                    Student foundStudent = system.searchStudent(rollToSearch);
+                    Student_task5 foundStudent = system.searchStudent(rollToSearch);
                     if (foundStudent != null) {
                         System.out.println(foundStudent);
                     } else {
