@@ -5,7 +5,7 @@ import java.util.Scanner;
 class Atm_task3{
     BankAcc acc;
 
-    public Atm(BankAcc acc) {
+    public Atm_task3(BankAcc acc) {
         this.acc = acc;
     }
 
