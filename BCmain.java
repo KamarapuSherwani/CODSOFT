@@ -1,10 +1,10 @@
 package task3;
 import java.util.*;
-public class BCmain{
+public class BCmain_task3{
 	//---------------main method-------------------------
     public static void main(String[] args) {
-        BankAcc b1 = new BankAcc(50000);
-        Atm a1 = new Atm(b1);
+        BankAcc_task3 b1 = new BankAcc_task3(50000);
+        Atm_task3 a1 = new Atm_task3(b1);
         Scanner sc = new Scanner(System.in);
         int choice;
         do {
