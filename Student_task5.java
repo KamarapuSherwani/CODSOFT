@@ -1,11 +1,11 @@
 package task5;
 
-public class Student {
+public class Student_task5{
     private String name;
     private int rollNumber;
     private String grade;
 
-    public Student(String name, int rollNumber, String grade) {
+    public Student_task5(String name, int rollNumber, String grade) {
         this.name = name;
         this.rollNumber = rollNumber;
         this.grade = grade;
