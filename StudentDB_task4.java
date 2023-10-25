@@ -1,11 +1,11 @@
 package task4;
 import java.util.*;
-public class StudentDB{
+public class StudentDB_task4{
 	private String s_name;
 	private int s_id;
 	private String s_course;
 
- public StudentDB(String s_name, int s_id, String s_course){
+ public StudentDB_task4(String s_name, int s_id, String s_course){
  	this.s_name = s_name;
  	this.s_id = s_id;
  	this.s_course = s_course;
