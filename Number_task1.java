@@ -1,7 +1,7 @@
 package task1;
 import java.util.*;
 
-public class Number{
+public class Number_task1{
 
 	public void game(){
 		int r_num, num, score=0, diff, won=0;
@@ -43,7 +43,7 @@ public class Number{
 
 	public static void main(String[] args) {
 
-		Number n = new Number();
+		Number_task1 n = new Number_task1();
 		Scanner in = new Scanner(System.in);
 		int round=0, play;
 	do{
