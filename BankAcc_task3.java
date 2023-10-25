@@ -1,9 +1,9 @@
 package task3;
 import java.util.*;
-class BankAcc {
+class BankAcc_task3 {
     private double balance;
 
-    public BankAcc(double balance) {
+    public BankAcc_task3(double balance) {
         this.balance = balance;
     }
 
